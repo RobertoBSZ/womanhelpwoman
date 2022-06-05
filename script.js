@@ -1,7 +1,3 @@
-function localizar() {
-    navigator.geolocation.getCurrentPosition(showPosition)
-}
-
 function showPosition(pos) {
     var lt = 50.33514898909946
     var lg = 34.90596447104751
